@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css\style.css">
+    <title>PU LA REST</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="inner-container">
+                <div class="header">
+                    <img src="css\assets\pula.png" alt="">
+                    <h1>पु. ल. रेस्ट</h1>
+                </div>
+                <hr>
+                <div class="middle-container">
+                    <p>नमस्कार मित्रांनो , पु. ल. देशपांडे( Pu. La. Deshpande) या महान लेखकामुळे आज महाराष्ट्राच्या साहित्याला एक वेगळी ओळख होती. त्यांचं लिखाण हे विनोदी होत आणि भाषेतून ते आपलं विनोदी व्यक्तित्व दाखवून देत असत. त्यांचे काही महत्वपूर्ण सुविचार. ज्यांना वाचून एक हसू येऊन जीवनाची शिकवण येईल.</p>
+                    <h2>API वापर </h2>
+                    <div class="main-conatainer">
+                        <div class="api-contents">
+                            <h3>GET&nbsp<a href="#">https://api.pula.rest</a></h3>
+                            <h3><a target="_blank"
+                                    href="https://twitter.com/intent/tweet?text=%22I%20am%20one%20of%20the%20most%20famous%20people%20on%20the%20planet%22-%40kanyewest%20via%20https%3A%2F%2Fkanye.rest%20%40ajzbc">Tweet&nbsp&nbsp</a><i
+                                    class="fab fa-twitter"></i>
+                            </h3>
+
+                            <h3>
+                                <a href="/">Refresh&nbsp</a><i class="fas fa-sync"></i>
+                            </h3>
+
+                        </div>
+                        <div class="main">
+                            <h4 class="quote">{</h4>
+                            <h4 class="quote">Quote : <%= pulaquote %>
+                            </h4>
+                            <h4 class="quote">}</h4>
+                        </div>
+                    </div>
+
+                    <h3 class="title">सामान्य प्रश्न</h3>
+                    <div class="section">
+                        <b>मी माझ्या प्रकल्पात हे वापरू शकतो?</b>
+                        <p>होय आपल्याबरोबर जे हवे आहे ते करा! <a href="https://twitter.com/ajzbc" target="_blank">आपण काय बनवतात ते मला कळवा!</a></p>
+                        <br>
+                        <b>एपीआय दर मर्यादित आहे?</b>
+                        <p>नाही, पण उदार व्हा..</p>
+                        <br>
+                        <b>तो मुक्त स्त्रोत आहे? मी योगदान देऊ शकतो?</b>
+                        <p>होय! गिटहब वर माझा स्पॅगेटी कोड तपासा.  <a href="https://github.com/ajzbc/kanye.rest"
+                                target="_blank">API</a> <a href="https://github.com/ajzbc/kanye.rest/tree/gh-pages"
+                                target="_blank">Site</a></p>
+                        <br>
+                        <b>मी हे माझे गिट कमिट संदेश उजळ करण्यासाठी वापरू शकतो?</b>
+                        <p>होय प्रथम खालील उपनाव तयार करा आणि `गिट योलो` वापरा. स्वतःच्या जोखमीवर वापरा.</p>
+
+                        <code><div class="tab">git config --global alias.yolo '!git commit -m "$(curl -s api.kanye.rest/?format=text)"'</div></code>
+                    </div>
+
+                    <footer>
+                        <div class="footer-continer">
+                            <!-- <button class="heart" id="heart"><i class="fas fa-heart"></i></button> -->
+                            <button id="music"><i class="fas fa-volume-up"></i></button> 
+                            <h3 class="name">आनंदयात्री</h3>
+                            <h5>Made by XYZ</h5>
+                        </div>
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="css/script.js"></script>
+</body>
+
+</html>
